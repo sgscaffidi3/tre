@@ -29,4 +29,6 @@ autoheader
 automake --foreign --add-missing
 
 # Create the configure script.
+autoupdate
+autom4te
 autoconf
